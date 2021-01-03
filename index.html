@@ -12,9 +12,6 @@
         <input v-model="pass1" class="input-1" name="1st" placeholder="Enter Password" required/>
         <input v-model="pass2" class="input-2" name="2nd" placeholder="Re-enter Password" required/>
         <br/>
-        <h3>pass1: {{ pass1 }}</h3>
-        <h3>pass2: {{ pass2 }}</h3> 
-        <br/>
         <h2 v-if="(!(pass1 === pass2))">Passwords do not match.</h2>
     </div>
     
