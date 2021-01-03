@@ -1,5 +1,5 @@
-# test
-Test repository.
+# Vue webapp.
+This application reactively checks whether two html input tag data are equal or not.
 
 Basically the repository contains an html file with two password input tags.
 
