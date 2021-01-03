@@ -7,4 +7,4 @@ The app.js file contains Vue.js code with two initialized components: pass1 and 
 The input tags have a property v-model on 'em. (pass1 and pass2)
 
 And then it basically reactively checks whether the passwords match or not, and if they do not,
-shows the <h3>The passwords do not match.</h3>
+shows the "<h3>The passwords do not match.</h3>" message.
